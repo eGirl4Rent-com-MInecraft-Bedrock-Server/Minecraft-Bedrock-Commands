@@ -1,0 +1,64 @@
+    /ability: Sets a player's ability (requires Education Edition features enabled).
+    /alwaysday or /daylock: Locks and unlocks the day-night cycle.
+    /clear: Clears the player's inventory.
+    /clone: Copies blocks from one place to another.
+    /connect: Connects to a server in-game (Update 1.0).
+    /deop: Revokes operator status from a player.
+    /difficulty: Changes the game difficulty.
+    /effect: Grants a status effect to an entity.
+    /enchant: Enchants a player's item.
+    /execute: Executes another command.
+    /fill: Fills a region with a specific block.
+    /function: Runs a command found in the corresponding function file.
+    /gamemode: Sets a player's gamemode.
+    /gamerule: Sets a game rule value.
+    /give: Gives an item to a player.
+    /help: Provides help for commands.
+    /immutableworld: Sets the immutable state of a world (requires Education Edition features enabled).
+    /kill: Kills entities (players, mobs, items, etc.).
+    /list: Lists players on the server.
+    /locate: Locates the nearest selected structure (Update 1.0).
+    /me: Displays custom chat messages starting with the player's name.
+    /mixer: Mixer interactivity control.
+    /mobevent: Controls which mob events are allowed to run.
+    /op: Grants operator status to a player.
+    /particle: Creates a particle emitter.
+    /playsound: Plays a built-in sound.
+    /reload: Reloads all functions from all behavior packs.
+    /replaceitem: Replaces inventory items.
+    /say: Displays a message to multiple players.
+    /scoreboard: Tracks and displays scores for various objectives.
+    /setblock: Changes a block to another block.
+    /setmaxplayers: Sets the maximum number of players for the current game session.
+    /setworldspawn: Sets the world spawn point.
+    /spawnpoint: Sets the spawn point for a player.
+    /spreadplayers: Teleports entities to random locations within a radius.
+    /stopsound: Stops a currently playing sound.
+    /summon: Summons an entity.
+    /tag: Manages tags stored in entities.
+    /tell or /msg or /w: Displays a private message to other players.
+    /tellraw: Sends a JSON message to players.
+    /testfor: Tests for a player or other entity.
+    /testforblock: Tests whether a block is in a location.
+    /testforblocks: Tests whether the blocks in two regions match.
+    /tickingarea: Sets areas that update without any players in them.
+    /time: Changes or queries the world's game time.
+    /title: Displays screen titles.
+    /titleraw: Displays screen titles with JSON messages.
+    /toggledownfall: Toggles the weather.
+    /tp or /teleport: Teleports entities.
+    /transferserver: Transfers into another server in-game.
+    /videostream: Attempts to connect to a WebSocket server to send a video.
+    /videostreamaction: Performs a video stream-related action.
+    /weather: Sets the weather.
+    /worldbuilder or /wb: Toggles World Builder status of a caller (requires Education Edition features enabled).
+    /wsserver: Attempts to connect to the WebSocket server on the provided URL. Used by developers.
+    /xp: Adds or removes player experience.
+
+Command Arguments:
+Most commands accept arguments, which consist of the argument type followed by its value. Here are some common argument types:
+
+    string: Any combination of alphanumeric characters.
+    int: A number, possibly with a range. Negative numbers are possible. Positional counts are zero-based.
+    x y z: A coordinate set of integers denoting a location in the world.
+    Target: Specifies a target for the command, which can include players and entities. Common target selectors include @a (all players), @e (all entities), @p (nearest players), @r (random player(s)), and @s (yourself).
